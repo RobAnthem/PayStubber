@@ -1,0 +1,31 @@
+﻿<Window x:Class="PayStubs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PayStubs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DatePicker x:Name="field_date" HorizontalAlignment="Left" Margin="10,263,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label" Content="Start Date" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label_Copy" Content="Company Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="field_cName" HorizontalAlignment="Left" Height="23" Margin="14,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label_Copy1" Content="Company Address" HorizontalAlignment="Left" Margin="6,79,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="field_cAdd" HorizontalAlignment="Left" Height="23" Margin="10,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label_Copy2" Content="Employee Name" HorizontalAlignment="Left" Margin="6,156,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="field_eName" HorizontalAlignment="Left" Height="23" Margin="10,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label_Copy3" Content="Employee ID" HorizontalAlignment="Left" Margin="303,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="field_eID" HorizontalAlignment="Left" Height="23" Margin="307,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label_Copy4" Content="Last 4 of SSN" HorizontalAlignment="Left" Margin="303,79,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="field_eSSN" HorizontalAlignment="Left" Height="23" Margin="307,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label_Copy5" Content="Rate" HorizontalAlignment="Left" Margin="299,143,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="field_rate" HorizontalAlignment="Left" Height="23" Margin="303,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label_Copy6" Content="Weekly Hours" HorizontalAlignment="Left" Margin="299,212,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="field_hours" HorizontalAlignment="Left" Height="23" Margin="303,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="button" Content="Generate" HorizontalAlignment="Left" Margin="376,276,0,0" VerticalAlignment="Top" Width="116" Click="button_Click"/>
+        <DatePicker x:Name="field_dateEnd" HorizontalAlignment="Left" Margin="157,263,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label_Copy7" Content="End Date" HorizontalAlignment="Left" Margin="157,220,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>
